@@ -14,13 +14,17 @@
     try { localStorage.setItem(clave, valor); } catch (e) {}
   }
 
-  /* Anillo del ciclo: el punto recorre las cuatro fases y el centro las nombra */
+  /* Anillo del ciclo: el punto recorre las cuatro fases y el centro las nombra.
+     La forma es orgánica: el radio ondula con el ángulo, igual que los trazos del SVG. */
   (function () {
     var dot = document.getElementById('orbitDot');
     var label = document.getElementById('ringLabel');
     var sub = document.getElementById('ringSub');
     if (!dot || !label || !sub) return;
-    var cx = 100, cy = 100, r = 82;
+    var cx = 100, cy = 100;
+    function radio(t) {
+      return 82 + 6 * Math.sin(3 * t + 0.6) + 4 * Math.sin(5 * t + 2.1) + 2 * Math.sin(7 * t + 1.0);
+    }
     var fases = [
       { n: 'Fase menstrual', c: '#FF5470', t: 'Bajamos la intensidad. Misma rutina, cero presión.' },
       { n: 'Folicular y ovulación', c: '#7DE0A6', t: 'Subimos carga y vamos a por tus mejores marcas.' },
@@ -38,6 +42,7 @@
       if (start === null) start = ts;
       var p = ((ts - start) % dur) / dur;
       var ang = p * 2 * Math.PI;
+      var r = radio(ang);
       dot.setAttribute('cx', (cx + r * Math.sin(ang)).toFixed(2));
       dot.setAttribute('cy', (cy - r * Math.cos(ang)).toFixed(2));
       var idx = Math.min(3, Math.floor(p * 4));
