@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data: https://www.googletagmanager.com https://*.google-analytics.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://www.googletagmanager.com; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="theme-color" content="#1C1120">
+<title>Entrenamiento de fuerza para mujeres según tu ciclo | ELEVAS</title>
+<meta name="description" content="Planes de fuerza adaptados a tu ciclo menstrual, embarazo, postparto o menopausia. Entrena según tu momento, no contra él. Desde 12,99 € al mes.">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<link rel="canonical" href="https://elevas-fitness.com/">
+<link rel="alternate" hreflang="es" href="https://elevas-fitness.com/">
+<link rel="alternate" hreflang="en" href="https://elevas-fitness.com/en/">
+<link rel="alternate" hreflang="x-default" href="https://elevas-fitness.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="ELEVAS">
+<meta property="og:locale" content="es_ES">
+<meta property="og:url" content="https://elevas-fitness.com/">
+<meta property="og:title" content="Entrenamiento de fuerza para mujeres según tu ciclo | ELEVAS">
+<meta property="og:description" content="Planes de fuerza adaptados a tu ciclo menstrual, embarazo, postparto o menopausia. Entrena según tu momento, no contra él. Desde 12,99 € al mes.">
+<link rel="icon" type="image/png" href="/favicon.png">
+<link rel="apple-touch-icon" href="/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@600;700;800&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#1C1120; --bg2:#150B18; --card:#2A1A30; --card2:#332040; --line:#3D2A46;
+  --text:#F4ECE4; --muted:#9B8AA6; --accent:#FF5470;
+  --mens:#FF5470; --fol:#7DE0A6; --ovu:#FFD166; --lut:#8FA7FF;
+  --maxw:1120px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;background:#1C1120 !important}
+/* base */
+html,body{background:#1C1120 !important;color:#F4ECE4 !important;-webkit-text-size-adjust:100%}
+body{font-family:'Space Grotesk',sans-serif !important;line-height:1.6;font-size:16px;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;background:#1C1120;z-index:-1;pointer-events:none}
+a{color:inherit !important;text-decoration:none !important}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 22px}
+h1,h2,h3,.logo{font-family:'Unbounded',sans-serif !important}
+
+/* ---------- barra superior ---------- */
+header{position:sticky;top:0;z-index:50;backdrop-filter:blur(12px);background:rgba(28,17,32,.72);border-bottom:1px solid transparent;transition:border-color .3s}
+header.scrolled{border-color:var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:62px}
+.logo{font-weight:700;font-size:20px;letter-spacing:.02em;display:flex;align-items:center;gap:9px}
+.logo .mark{width:22px;height:22px}
+.logo .word span{color:var(--accent)}
+.nav-cta{display:inline-block;background:#FF5470 !important;color:#fff !important;font-family:'Space Grotesk';font-weight:600;font-size:14px;padding:9px 18px;border-radius:999px;transition:transform .15s,box-shadow .15s}
+.nav-cta:hover{transform:translateY(-1px);box-shadow:0 8px 20px -8px var(--accent)}
+
+/* ---------- hero ---------- */
+.hero{position:relative;padding:64px 0 40px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:36px;align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:9px;font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:22px}
+.eyebrow .pulse{width:7px;height:7px;border-radius:50%;background:var(--fol);box-shadow:0 0 0 0 rgba(125,224,166,.6);animation:pulse 2.4s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(125,224,166,.5)}70%{box-shadow:0 0 0 9px rgba(125,224,166,0)}100%{box-shadow:0 0 0 0 rgba(125,224,166,0)}}
+.hero h1{font-size:clamp(34px,5.4vw,58px);line-height:1.04;font-weight:800;letter-spacing:-.01em}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero p.lead{font-size:clamp(16px,1.9vw,19px);color:var(--muted);margin:20px 0 30px;max-width:30em}
+.hero-actions{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.btn{display:inline-block;font-weight:600;font-size:15.5px;padding:14px 26px;border-radius:999px;cursor:pointer;transition:transform .15s,box-shadow .15s;border:none;font-family:'Space Grotesk'}
+.btn-primary{background:#FF5470 !important;color:#fff !important}
+.btn-primary:hover{transform:translateY(-2px);box-shadow:0 14px 30px -10px var(--accent)}
+.btn-ghost{background:transparent !important;color:#F4ECE4 !important;border:1px solid var(--line)}
+.btn-ghost:hover{border-color:var(--muted)}
+.hero-note{font-size:13px;color:var(--muted);margin-top:16px}
+
+/* ---------- anillo del ciclo (elemento firma) ---------- */
+.ringbox{position:relative;display:flex;align-items:center;justify-content:center;aspect-ratio:1;max-width:420px;margin:0 auto;width:100%}
+.ring-svg{width:100%;height:100%}
+.ring-track{fill:none;stroke:var(--line);stroke-width:5;opacity:.5}
+.ring-seg{fill:none;stroke-width:11;stroke-linecap:round;transform-origin:center;filter:drop-shadow(0 0 10px rgba(0,0,0,.4))}
+.orbit-dot{fill:#fff;filter:drop-shadow(0 0 8px rgba(255,255,255,.8))}
+.ring-center{position:absolute;text-align:center;max-width:60%}
+.ring-center .phlabel{font-family:'Unbounded';font-weight:700;font-size:17px;transition:color .5s}
+.ring-center .phsub{font-size:12.5px;color:var(--muted);margin-top:5px;min-height:2.6em}
+
+/* ---------- tira de confianza ---------- */
+.strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#150B18 !important}
+.strip .wrap{display:flex;gap:38px;flex-wrap:wrap;justify-content:space-between;padding-top:22px;padding-bottom:22px}
+.strip .item{display:flex;flex-direction:column;gap:2px}
+.strip .item b{font-family:'Unbounded';font-weight:700;font-size:22px;color:var(--text)}
+.strip .item small{font-size:12.5px;color:var(--muted)}
+
+/* ---------- secciones ---------- */
+section.block{padding:82px 0}
+.sec-head{max-width:34em;margin-bottom:46px}
+.sec-eyebrow{font-size:12.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:14px}
+.sec-head h2{font-size:clamp(26px,3.6vw,40px);line-height:1.12;font-weight:700;letter-spacing:-.01em}
+.sec-head p{color:var(--muted);margin-top:16px;font-size:16.5px}
+
+/* fases */
+.phases{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.phase{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px 20px;position:relative;overflow:hidden;transition:transform .2s,border-color .2s}
+.phase:hover{transform:translateY(-4px)}
+.phase::before{content:"";position:absolute;top:0;left:0;right:0;height:4px}
+.phase.p-mens::before{background:var(--mens)} .phase.p-mens:hover{border-color:var(--mens)}
+.phase.p-fol::before{background:var(--fol)} .phase.p-fol:hover{border-color:var(--fol)}
+.phase.p-ovu::before{background:var(--ovu)} .phase.p-ovu:hover{border-color:var(--ovu)}
+.phase.p-lut::before{background:var(--lut)} .phase.p-lut:hover{border-color:var(--lut)}
+.phase .ph-name{font-family:'Unbounded';font-weight:600;font-size:15px;margin-bottom:4px}
+.phase.p-mens .ph-name{color:var(--mens)} .phase.p-fol .ph-name{color:var(--fol)}
+.phase.p-ovu .ph-name{color:var(--ovu)} .phase.p-lut .ph-name{color:var(--lut)}
+.phase .ph-rir{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-bottom:12px}
+.phase p{font-size:14px;color:var(--text);opacity:.9;line-height:1.55}
+
+/* plan maestro anual */
+.master{background:#150B18 !important}
+.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border:1px solid var(--line);border-radius:20px;overflow:hidden}
+.tblock{padding:26px 22px;border-right:1px solid var(--line);position:relative}
+.tblock:last-child{border-right:none}
+.tblock .tnum{font-family:'Unbounded';font-weight:800;font-size:13px;color:var(--accent);letter-spacing:.08em}
+.tblock .tmonths{font-size:12px;color:var(--muted);margin:4px 0 14px}
+.tblock h3{font-family:'Unbounded';font-weight:600;font-size:17px;margin-bottom:8px}
+.tblock p{font-size:13.5px;color:var(--muted);line-height:1.5}
+.tbar{height:5px;border-radius:999px;margin-top:18px;background:linear-gradient(90deg,var(--mens),var(--fol),var(--lut),var(--ovu))}
+
+/* etapas de la vida */
+.stages{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.stage{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px 22px}
+.stage h3{font-family:'Unbounded';font-weight:600;font-size:16px;margin-bottom:8px;color:var(--text)}
+.stage p{font-size:14px;color:var(--muted);line-height:1.55}
+.stage .ico{width:34px;height:34px;margin-bottom:16px;color:var(--accent)}
+
+/* compromiso */
+.pledge{background:linear-gradient(160deg,#241428,#1C1120);border:1px solid var(--line);border-radius:26px;padding:52px 44px;position:relative;overflow:hidden}
+.pledge::after{content:"";position:absolute;right:-80px;top:-80px;width:280px;height:280px;border-radius:50%;background:radial-gradient(circle,rgba(255,84,112,.16),transparent 70%)}
+.pledge .sec-eyebrow{color:var(--accent)}
+.pledge h2{font-size:clamp(24px,3.4vw,36px);font-weight:700;line-height:1.15;max-width:20em;margin-bottom:20px}
+.pledge p{color:var(--text);opacity:.9;max-width:44em;margin-bottom:16px;font-size:16px}
+.pledge p.small{color:var(--muted);font-size:14.5px}
+.signature{margin-top:26px;font-family:'Unbounded';font-weight:600;font-size:15px;color:var(--accent)}
+.signature small{display:block;font-family:'Space Grotesk';font-weight:400;color:var(--muted);font-size:12.5px;margin-top:2px}
+
+/* progreso */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+.split-copy h2{font-size:clamp(24px,3.2vw,34px);font-weight:700;line-height:1.15;margin-bottom:16px}
+.split-copy p{color:var(--muted);font-size:16px;margin-bottom:14px}
+.wcard{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px}
+.wcard .wtitle{font-family:'Unbounded';font-weight:600;font-size:14px;margin-bottom:18px;color:var(--muted)}
+.wrow{display:flex;align-items:center;justify-content:space-between;padding:11px 0;border-bottom:1px solid var(--line)}
+.wrow:last-child{border-bottom:none}
+.wrow .wname{font-size:14px}
+.wrow .wph{display:inline-block;font-size:11px;font-weight:600;padding:2px 9px;border-radius:999px;margin-right:8px}
+.wrow .wkg{font-family:'Space Grotesk';font-weight:600;font-size:14px}
+.ph-pill-mens{background:rgba(255,84,112,.16);color:var(--mens)}
+.ph-pill-fol{background:rgba(125,224,166,.16);color:var(--fol)}
+.ph-pill-ovu{background:rgba(255,209,102,.16);color:var(--ovu)}
+.ph-pill-lut{background:rgba(143,167,255,.16);color:var(--lut)}
+.up{color:var(--fol);font-size:12px;margin-left:6px}
+
+/* cta final */
+.finalcta{text-align:center;padding:92px 0}
+.finalcta h2{font-size:clamp(28px,4.4vw,48px);font-weight:800;line-height:1.08;letter-spacing:-.01em;max-width:16em;margin:0 auto 22px}
+.finalcta h2 em{font-style:normal;color:var(--accent)}
+.finalcta p{color:var(--muted);font-size:17px;margin-bottom:32px;max-width:34em;margin-left:auto;margin-right:auto}
+
+/* pie */
+footer{border-top:1px solid var(--line);padding:40px 0;background:#150B18 !important}
+.foot{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+.foot .logo{font-size:17px}
+.foot nav{display:flex;gap:22px;font-size:14px;color:var(--muted)}
+.foot nav a:hover{color:var(--text)}
+footer .legal{font-size:11px;color:var(--muted);opacity:.7;margin-top:18px;width:100%}
+
+/* reveal on scroll */
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+
+@media(max-width:900px){
+  .hero-grid{grid-template-columns:1fr;gap:8px}
+  .ringbox{max-width:340px;margin-top:20px}
+  .phases{grid-template-columns:repeat(2,1fr)}
+  .timeline{grid-template-columns:1fr 1fr}
+  .tblock:nth-child(2){border-right:none}
+  .tblock:nth-child(1),.tblock:nth-child(2){border-bottom:1px solid var(--line)}
+  .stages{grid-template-columns:1fr}
+  .split{grid-template-columns:1fr;gap:28px}
+  .pledge{padding:38px 26px}
+}
+@media(max-width:520px){
+  .phases{grid-template-columns:1fr}
+  .timeline{grid-template-columns:1fr}
+  .tblock{border-right:none;border-bottom:1px solid var(--line)}
+  .tblock:last-child{border-bottom:none}
+  .strip .wrap{gap:22px}
+  .strip .item{flex:1 1 40%}
+}
+@media(prefers-reduced-motion:reduce){
+  .reveal{opacity:1;transform:none;transition:none}
+  .orbit-dot{animation:none!important}
+  .eyebrow .pulse{animation:none}
+}
+
+/* ---------- FAQ ---------- */
+.faq{max-width:760px;margin:0 auto}
+.faq-item{border-bottom:1px solid var(--line)}
+.faq-q{width:100%;background:transparent !important;border:none;text-align:left;cursor:pointer;padding:22px 44px 22px 0;position:relative;font-family:'Space Grotesk' !important;font-weight:600;font-size:17px;color:var(--text) !important;line-height:1.4}
+.faq-q::after{content:"+";position:absolute;right:6px;top:50%;transform:translateY(-50%);font-size:24px;color:var(--accent);font-weight:400;transition:transform .25s}
+.faq-item.open .faq-q::after{content:"\2013"}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .3s ease}
+.faq-a p{color:var(--muted);font-size:15.5px;line-height:1.6;padding:0 30px 24px 0}
+.faq-item.open .faq-a{max-height:600px}
+
+/* ---------- COMPARATIVA PLANES ---------- */
+.cmp{max-width:820px;margin:0 auto;overflow-x:auto}
+.cmp table{width:100%;border-collapse:collapse}
+.cmp th,.cmp td{padding:14px 12px;text-align:center;border-bottom:1px solid var(--line);font-size:15px;color:var(--text)}
+.cmp td:first-child,.cmp th:first-child{text-align:left;color:var(--muted);font-size:14.5px}
+.cmp thead th{font-family:'Unbounded';font-weight:700;font-size:15px;padding-bottom:6px}
+.cmp .prec{font-family:'Space Grotesk';font-size:13.5px;color:var(--muted);font-weight:400}
+.cmp .col-prem{background:rgba(255,84,112,.07)}
+.cmp thead .col-prem{color:var(--accent);position:relative}
+.cmp .badge-rec{display:inline-block;background:var(--accent);color:#fff;font-family:'Space Grotesk';font-size:11px;font-weight:600;letter-spacing:.5px;text-transform:uppercase;border-radius:20px;padding:3px 10px;margin-bottom:6px}
+.cmp .si{color:var(--accent);font-weight:700}
+.cmp .no{color:var(--muted);opacity:.45}
+
+/* alternativas */
+.stages.two{grid-template-columns:repeat(2,1fr)}
+.stage .tag{display:inline-block;margin-top:16px;font-size:11.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--accent);background:rgba(255,84,112,.12);border-radius:999px;padding:4px 10px}
+.sec-head.solo{margin-bottom:0}
+
+/* aviso de cookies */
+.cookies{position:fixed;left:16px;right:16px;bottom:16px;z-index:90;max-width:520px;margin:0 auto;background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:16px;padding:18px 20px;font-size:14px;line-height:1.55;box-shadow:0 12px 40px rgba(0,0,0,.45)}
+.cookies[hidden]{display:none}
+.cookies p{margin:0 0 14px}
+.cookies a{color:var(--accent) !important;text-decoration:underline !important}
+.cookies .ec-btns{display:flex;gap:10px;flex-wrap:wrap}
+.cookies button{flex:1;min-width:120px;border:0;border-radius:10px;padding:11px 14px;font-family:'Space Grotesk';font-size:14px;font-weight:600;cursor:pointer}
+.cookies .ec-ok{background:var(--accent);color:#fff}
+.cookies .ec-no{background:transparent;color:var(--text);border:1px solid var(--line)}
+
+/* prueba gratuita */
+.modal{position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;padding:22px;background:rgba(21,11,24,.78);backdrop-filter:blur(6px)}
+.modal[hidden]{display:none}
+.modal-box{position:relative;width:100%;max-width:440px;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:40px 32px 30px;text-align:center;box-shadow:0 24px 60px rgba(0,0,0,.5)}
+.modal-box .sec-eyebrow{margin-bottom:10px}
+.modal-box h3{font-size:clamp(24px,4vw,30px);font-weight:700;line-height:1.1;margin-bottom:12px}
+.modal-box p{color:var(--muted);font-size:15.5px;margin-bottom:24px}
+.modal-box .btn{width:100%}
+.modal-close{position:absolute;top:12px;right:14px;width:36px;height:36px;border:0;border-radius:50%;background:transparent;color:var(--muted);font-size:26px;line-height:1;cursor:pointer;font-family:'Space Grotesk'}
+.modal-close:hover{color:var(--text)}
+.modal-later{display:block;margin:14px auto 0;background:transparent;border:0;color:var(--muted);font-family:'Space Grotesk';font-size:13.5px;cursor:pointer;text-decoration:underline}
+.modal-later:hover{color:var(--text)}
+.modal button:focus-visible,.cookies button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media(max-width:900px){
+  .stages.two{grid-template-columns:1fr}
+}
+@media(prefers-reduced-motion:reduce){
+  .modal{backdrop-filter:none}
+}
+</style>
+</head>
+<body>
+
+<header id="top">
+  <div class="wrap nav">
+    <a class="logo" href="#top">
+      <svg class="mark" viewBox="0 0 48 48" fill="none"><path d="M10 26 L24 14 L38 26" stroke="#FF5470" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 36 L24 28 L34 36" stroke="#F4ECE4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span class="word">ELE<span>VAS</span></span>
+    </a>
+    <a class="nav-cta" href="https://app.elevas-fitness.com">Entrar a la app</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow"><span class="pulse"></span>Hecho por mujeres, para mujeres</span>
+      <h1>Entrena con tu ciclo, <em>no contra él</em></h1>
+      <p class="lead">Un plan de fuerza que ajusta sus indicaciones a cada fase del mes y que cambia para cada etapa de tu vida. Tu cuerpo marca el ritmo y el entrenamiento lo sigue.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://app.elevas-fitness.com">Empieza ahora</a>
+        <a class="btn btn-ghost" href="#fases">Ver cómo funciona</a>
+      </div>
+      <p class="hero-note">Creas tu cuenta y tienes tu primer plan en dos minutos.</p>
+    </div>
+
+    <div class="ringbox reveal">
+      <svg class="ring-svg" viewBox="0 0 200 200">
+        <circle class="ring-track" cx="100" cy="100" r="82"/>
+        <path class="ring-seg" stroke="#FF5470" d="M107.15 18.31 A82 82 0 0 1 181.69 92.85"/>
+        <path class="ring-seg" stroke="#7DE0A6" d="M181.69 107.15 A82 82 0 0 1 107.15 181.69"/>
+        <path class="ring-seg" stroke="#8FA7FF" d="M92.85 181.69 A82 82 0 0 1 18.31 107.15"/>
+        <path class="ring-seg" stroke="#FFD166" d="M18.31 92.85 A82 82 0 0 1 92.85 18.31"/>
+        <circle class="orbit-dot" id="orbitDot" cx="100" cy="18" r="7"/>
+      </svg>
+      <div class="ring-center">
+        <div class="phlabel" id="ringLabel" style="color:var(--mens)">Fase menstrual</div>
+        <div class="phsub" id="ringSub">Bajamos la intensidad. Misma rutina, cero presión.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TIRA -->
+<div class="strip">
+  <div class="wrap">
+    <div class="item"><b>4 fases</b><small>Las indicaciones cambian en cada una</small></div>
+    <div class="item"><b>12 meses</b><small>Un plan maestro que avanza todo el año</small></div>
+    <div class="item"><b>+90</b><small>Ejercicios que rotan para trabajarlo todo</small></div>
+    <div class="item"><b>Cada etapa</b><small>Ciclo, embarazo, postparto, menopausia</small></div>
+  </div>
+</div>
+
+<!-- FASES -->
+<section class="block" id="fases">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-eyebrow">Tu mes, por dentro</div>
+      <h2>Cada fase pide algo distinto. El plan lo sabe.</h2>
+      <p>Tu energía y tu recuperación no son iguales toda la vida ni todo el mes. En vez de pedirte lo mismo cada día, ELEVAS ajusta la exigencia a la fase en la que estás.</p>
+    </div>
+    <div class="phases">
+      <div class="phase p-mens reveal">
+        <div class="ph-name">Menstrual</div>
+        <div class="ph-rir">Sin presión</div>
+        <p>Misma rutina, menos exigencia. Si un día no llegas a las repeticiones, no pasa nada. El objetivo es moverte, no forzar.</p>
+      </div>
+      <div class="phase p-fol reveal">
+        <div class="ph-name">Folicular y ovulación</div>
+        <div class="ph-rir">A por ello</div>
+        <p>La ventana para subir. Añades carga o repeticiones y, en los días de ovulación, vas a por tus récords con técnica estricta.</p>
+      </div>
+      <div class="phase p-lut reveal">
+        <div class="ph-name">Lútea temprana</div>
+        <div class="ph-rir">Sigue empujando</div>
+        <p>Todavía tienes energía. Mantienes o superas las cargas de la semana anterior, con más hidratación y más descanso.</p>
+      </div>
+      <div class="phase p-ovu reveal">
+        <div class="ph-name">Lútea tardía</div>
+        <div class="ph-rir">Semana suave</div>
+        <p>Los siete días antes de la regla. Técnica y cargas cómodas, y si el cuerpo te pide bajar, recortas series sin culpa.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ALTERNATIVAS -->
+<section class="block">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-eyebrow">Sin excusas</div>
+      <h2>¿Máquina ocupada? ¿Una lesión? Sigues entrenando.</h2>
+    </div>
+    <div class="stages two">
+      <div class="stage reveal">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h13"/><path d="M13 4l4 4-4 4"/><path d="M20 16H7"/><path d="M11 12l-4 4 4 4"/></svg>
+        <h3>Máquina ocupada</h3>
+        <p>¿Máquina ocupada o un ejercicio que no te gusta? Te damos la alternativa inmediata, para que no te escaquees del entrenamiento por eso. Cada ejercicio lleva su alternativa con el botón ⇄: cambias al momento y sigues.</p>
+        <span class="tag">Incluido en Premium</span>
+      </div>
+      <div class="stage reveal">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 7.5 16 12l1.5 1.5-4.5 4.5-1.5-1.5-4 4-2-2 4-4L8 13l4.5-4.5L14 10l4.5-4.5z"/></svg>
+        <h3>Con lesión o molestia</h3>
+        <p>Si tienes una zona delicada, el plan evita los ejercicios que la cargan y rellena el día trabajando lo de alrededor, para que sigas fuerte mientras te recuperas.</p>
+        <span class="tag">Incluido en Premium</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PLAN MAESTRO -->
+<section class="block master">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-eyebrow">No es un mes suelto</div>
+      <h2>Un plan maestro de un año entero</h2>
+      <p>Cada ciclo abres un mes nuevo, con ejercicios distintos, dentro de un mismo plan que avanza de principio a fin. El objetivo del plan de desarrollo de glúteos (y del resto del cuerpo) es ayudarte a construir un físico top, y también puedes elegir mantenimiento o pérdida de grasa. Tu aspecto dependerá únicamente de tu constancia, del plan que elijas y de tu alimentación.</p>
+    </div>
+    <div class="timeline reveal">
+      <div class="tblock">
+        <div class="tnum">BLOQUE 1</div>
+        <h3>Base y técnica</h3>
+        <p>Construyes cimientos y aprendes a ejecutar con seguridad. Rangos altos y control antes que peso.</p>
+      </div>
+      <div class="tblock">
+        <div class="tnum">BLOQUE 2</div>
+        <h3>Fuerza</h3>
+        <p>Subes cargas en los grandes ejercicios. El cuerpo se acostumbra a mover más peso con buena forma.</p>
+      </div>
+      <div class="tblock">
+        <div class="tnum">BLOQUE 3</div>
+        <h3>Hipertrofia</h3>
+        <p>Máximo volumen para crecer. Es la etapa donde el músculo responde y empieza a notarse.</p>
+      </div>
+      <div class="tblock">
+        <div class="tnum">BLOQUE 4</div>
+        <h3>Definición</h3>
+        <p>Básicos pesados y más aislamiento para pulir el trabajo del año y sacar la forma.</p>
+      </div>
+    </div>
+    <div class="tbar reveal"></div>
+    <p class="reveal" style="text-align:center;max-width:30em;margin:26px auto 0;color:var(--text);font-size:16.5px"><b>Tu mes no acaba a las 4 semanas.</b> Cada mes nuevo arranca 7 días antes de tu regla prevista: las dos semanas suaves van primero y las dos fuertes cierran el mes. Nos adaptamos a ti, no al revés.</p>
+  </div>
+</section>
+
+<!-- ETAPAS DE LA VIDA -->
+<section class="block">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="sec-eyebrow">Toda tu vida cuenta</div>
+      <h2>El cuerpo de una mujer cambia. Tu plan también.</h2>
+      <p>El ciclo no es lo único que se mueve. ELEVAS se adapta a cada momento por el que pasas, sin dejarte sola en ninguno.</p>
+    </div>
+    <div class="stages">
+      <div class="stage reveal">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v6"/><path d="M5 8c0 4 3 6 7 6s7-2 7-6"/><path d="M7 22c0-5 2-8 5-8s5 3 5 8"/></svg>
+        <h3>Embarazo y postparto</h3>
+        <p>Ajustes por trimestre y una vuelta progresiva después del parto, siempre orientativos y con el recordatorio de entrenar con el visto bueno de tu médico o matrona.</p>
+      </div>
+      <div class="stage reveal">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0-6 6c0 3 2 4 2 7h8c0-3 2-4 2-7a6 6 0 0 0-6-6z"/><path d="M9 21h6"/></svg>
+        <h3>Perimenopausia y menopausia</h3>
+        <p>En esta etapa la fuerza es tu mejor herramienta para cuidar músculo y hueso. Pautas estables, sin fases de ciclo, pensadas para acompañarte con constancia.</p>
+      </div>
+      <div class="stage reveal">
+        <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 7.5 16 12l1.5 1.5-4.5 4.5-1.5-1.5-4 4-2-2 4-4L8 13l4.5-4.5L14 10l4.5-4.5z"/></svg>
+        <h3>Con lesión</h3>
+        <p>Si tienes una zona delicada, el plan evita los ejercicios que la cargan y rellena el día trabajando lo de alrededor, para que sigas fuerte mientras te recuperas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPROMISO -->
+<section class="block">
+  <div class="wrap">
+    <div class="pledge reveal">
+      <div class="sec-eyebrow">Nuestro compromiso</div>
+      <h2>Nacimos porque nos cansamos de entrenar con planes pensados para otros cuerpos.</h2>
+      <p>Durante años, el entrenamiento de fuerza se ha escrito en masculino. Rutinas iguales para todo el mundo, que ignoran que el cuerpo de una mujer tiene su propio ritmo. ELEVAS nace de ahí: de querer entrenar respetando el ciclo en vez de peleándonos con él.</p>
+      <p>Trabajamos sobre literatura científica del deporte y metodologías de especialistas, y lo decimos con honestidad: no somos un servicio médico y no prometemos milagros. Lo que sí hacemos es darte un plan que se adapta a cada necesidad y a cada etapa de tu vida, con indicaciones que cambian según tu fase, y que avanza contigo mes a mes.</p>
+      <p class="small">Cada plan se genera con tus datos y se rehace cuando cambian. Tus cargas, tu ciclo, tus lesiones y tu progreso son tuyos, y puedes borrarlos cuando quieras.</p>
+      <div class="signature">Julia, fundadora de ELEVAS<small>Entrenando, como tú, con su ciclo y no contra él</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROGRESO -->
+<section class="block master">
+  <div class="wrap">
+    <div class="sec-head solo reveal">
+      <h2>Ve tu progreso fase a fase</h2>
+      <p>Cada peso que registras queda guardado y ordenado por ciclo. Así ves cómo evolucionas dentro del mes, comparando la misma sentadilla en menstrual, folicular y ovulación, lútea temprana y lútea tardía.</p>
+      <p>La sobrecarga progresiva deja de ser una intuición: la tienes delante, en números, ciclo tras ciclo.</p>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- COMPARATIVA DE PLANES -->
+<section class="block">
+  <div class="wrap">
+    <div class="sec-head reveal" style="margin:0 auto 40px;text-align:center;max-width:34em">
+      <div class="sec-eyebrow">Planes</div>
+      <h2>Elige lo que necesitas hoy</h2>
+    </div>
+    <div class="cmp reveal">
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Fabuloso<br><span class="prec">12,99 &euro;/mes</span></th>
+            <th class="col-prem"><span class="badge-rec">Recomendado</span><br>Premium<br><span class="prec">19,99 &euro;/mes</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Plan mensual adaptado a tu etapa</td><td class="si">&#10003;</td><td class="col-prem si">&#10003;</td></tr>
+          <tr><td>Objetivos: gl&uacute;teos y p&eacute;rdida de grasa</td><td class="si">&#10003;</td><td class="col-prem si">&#10003;</td></tr>
+          <tr><td>Registro de ciclo con calendario</td><td class="si">&#10003;</td><td class="col-prem si">&#10003;</td></tr>
+          <tr><td>Pautas mensuales seg&uacute;n tu fase</td><td class="si">&#10003;</td><td class="col-prem si">&#10003;</td></tr>
+          <tr><td>Registro de pesos</td><td class="si">&#10003;</td><td class="col-prem si">&#10003;</td></tr>
+          <tr><td>Opci&oacute;n menopausia</td><td class="si">&#10003;</td><td class="col-prem si">&#10003;</td></tr>
+          <tr><td>Planes de embarazo y postparto</td><td class="no">&#10005;</td><td class="col-prem si">&#10003;</td></tr>
+          <tr><td>Entrenamiento HYROX</td><td class="no">&#10005;</td><td class="col-prem si">&#10003;</td></tr>
+          <tr><td>Adaptaci&oacute;n por lesiones</td><td class="no">&#10005;</td><td class="col-prem si">&#10003;</td></tr>
+          <tr><td>Alternativa si la m&aacute;quina est&aacute; ocupada</td><td class="no">&#10005;</td><td class="col-prem si">&#10003;</td></tr>
+          <tr><td>Comparativa y gr&aacute;fica de tu progreso</td><td class="no">&#10005;</td><td class="col-prem si">&#10003;</td></tr>
+          <tr><td>Celebraci&oacute;n de tus r&eacute;cords personales</td><td class="no">&#10005;</td><td class="col-prem si">&#10003;</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="block">
+  <div class="wrap">
+    <div class="sec-head reveal" style="margin:0 auto 40px;text-align:center;max-width:34em">
+      <div class="sec-eyebrow">Preguntas frecuentes</div>
+      <h2>Lo que te preguntas antes de empezar</h2>
+    </div>
+    <div class="faq reveal">
+      <div class="faq-item"><button class="faq-q">¿En qué se diferencia de otras apps de entrenamiento?</button><div class="faq-a"><p>La mayoría te da la misma rutina que a todas. Aquí el entrenamiento acompaña a tu cuerpo en todo: sus indicaciones se ajustan a tu momento del ciclo, y el plan cambia según tu etapa de vida, con opciones para menopausia, embarazo y postparto. Eliges tu objetivo, desde desarrollo de fuerza hasta pérdida de grasa o entrenamiento HYROX, y si tienes una lesión, adapta los ejercicios para que sigas entrenando segura. Todo pensado para mujeres, de principio a fin.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Tengo que entrenar distinto en cada fase de mi ciclo?</button><div class="faq-a"><p>No te compliques. Tus ejercicios de la semana son los mismos; lo que cambia son las indicaciones, pequeñas guías sobre cómo afrontar cada sesión según cómo suele estar tu cuerpo esos días. Tú solo sigues tu plan.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Cómo sabe la app en qué momento de mi ciclo estoy?</button><div class="faq-a"><p>Registras tus reglas en la app y ella calcula tus fases a partir de tus últimos ciclos. Es una estimación: si la regla se adelanta o se atrasa, se reajusta con el siguiente registro. Si tu ciclo es irregular, tu mes dura 28 días fijos y las fases se muestran solo como orientación.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Y si estoy en menopausia, embarazo o postparto?</button><div class="faq-a"><p>También es para ti. El entrenamiento se adapta a tu etapa, con pautas pensadas para cada momento y siempre con el recordatorio de entrenar con el visto bueno de tu médico.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Necesito experiencia previa en el gimnasio?</button><div class="faq-a"><p>No. Si empiezas de cero o vienes de otro deporte, tus primeras semanas se enfocan en aprender la técnica con calma antes de subir cargas. Vas a tu ritmo.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Cuánto cuesta y cómo se paga?</button><div class="faq-a"><p>Es una suscripción mensual, con IVA incluido, que puedes gestionar desde tu cuenta. Tienes los precios y lo que incluye cada plan en la página de precios de la app.</p></div></div>
+      <div class="faq-item"><button class="faq-q">¿Puedo cancelar cuando quiera?</button><div class="faq-a"><p>Sí, sin ataduras. Cancelas desde tu cuenta en cualquier momento y mantienes el acceso hasta el final del periodo que ya has pagado.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA FINAL -->
+<section class="finalcta">
+  <div class="wrap">
+    <h2 class="reveal">Tu cuerpo manda. <em>Nosotras te seguimos.</em></h2>
+    <p class="reveal">Crea tu cuenta y estrena un entrenamiento que se mueve a tu ritmo, cada fase del mes y cada etapa de tu vida.</p>
+    <a class="btn btn-primary reveal" href="https://app.elevas-fitness.com">Empieza a entrenar con ELEVAS</a>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <a class="logo" href="#top"><svg class="mark" viewBox="0 0 48 48" fill="none"><path d="M10 26 L24 14 L38 26" stroke="#FF5470" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 36 L24 28 L34 36" stroke="#F4ECE4" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="word">ELE<span>VAS</span></span></a>
+      <nav>
+        <a href="https://app.elevas-fitness.com">Entrar a la app</a>
+        <a href="/politica-de-privacidad">Privacidad</a>
+        <a href="/terminos-y-condiciones">Términos</a>
+        <a href="/aviso-legal">Aviso legal</a>
+        <a href="mailto:contacto@elevas-fitness.com">contacto@elevas-fitness.com</a>
+      </nav>
+    </div>
+    <div class="legal">ELEVAS no es un servicio médico. Consulta con tu médico antes de empezar cualquier programa de entrenamiento.</div>
+  </div>
+</footer>
+
+<div id="elevas-cookies" class="cookies" role="dialog" aria-label="Aviso de cookies" hidden>
+  <p>Usamos cookies propias necesarias y, si lo aceptas, cookies de Google Analytics para entender cómo se usa la web y mejorarla. Puedes aceptarlas o rechazarlas. Más información en la <a href="/politica-de-privacidad">política de privacidad</a>.</p>
+  <div class="ec-btns">
+    <button class="ec-no" type="button" data-cookies="reject">Rechazar</button>
+    <button class="ec-ok" type="button" data-cookies="accept">Aceptar</button>
+  </div>
+</div>
+
+<div id="trial-popup" class="modal" role="dialog" aria-modal="true" aria-labelledby="trial-title" hidden>
+  <div class="modal-box">
+    <button class="modal-close" type="button" aria-label="Cerrar">&times;</button>
+    <div class="sec-eyebrow">Prueba gratuita</div>
+    <h3 id="trial-title">7 días de prueba gratis</h3>
+    <p>Prueba ELEVAS una semana entera sin compromiso. Después, desde 12,99 €/mes. Cancelas cuando quieras.</p>
+    <a class="btn btn-primary" href="https://app.elevas-fitness.com">Empezar mi prueba gratis</a>
+    <button class="modal-later" type="button">Ahora no</button>
+  </div>
+</div>
+
+<script src="/js/landing.js" defer></script>
+</body>
+</html>
