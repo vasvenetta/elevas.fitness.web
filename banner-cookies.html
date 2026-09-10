@@ -1,0 +1,46 @@
+<!-- ELEVAS · Banner de cookies con bloqueo previo de Google Analytics -->
+<!-- Pegar en GHL: Settings del sitio > Codigo de seguimiento del CUERPO (body) -->
+<!-- IMPORTANTE: no pegues el codigo de Google Analytics en ningun otro sitio. Solo este banner. -->
+<style>
+#elevas-cookies{position:fixed;left:16px;right:16px;bottom:16px;z-index:99999;max-width:520px;margin:0 auto;background:#241729;color:#F4ECE4;border:1px solid #3a2a42;border-radius:16px;padding:18px 20px;font-family:'Space Grotesk',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;font-size:14px;line-height:1.55;box-shadow:0 12px 40px rgba(0,0,0,.45)}
+#elevas-cookies p{margin:0 0 14px}
+#elevas-cookies a{color:#FF5470}
+#elevas-cookies .ec-btns{display:flex;gap:10px;flex-wrap:wrap}
+#elevas-cookies button{flex:1;min-width:120px;border:0;border-radius:10px;padding:11px 14px;font-family:inherit;font-size:14px;font-weight:600;cursor:pointer}
+#elevas-cookies .ec-ok{background:#FF5470;color:#1C1120}
+#elevas-cookies .ec-no{background:transparent;color:#F4ECE4;border:1px solid #3a2a42}
+</style>
+<div id="elevas-cookies" role="dialog" aria-label="Aviso de cookies" style="display:none">
+  <p>Usamos cookies propias necesarias y, si lo aceptas, cookies de Google Analytics para entender como se usa la web y mejorarla. Puedes aceptarlas o rechazarlas. Mas informacion en la <a href="https://elevas-fitness.com/politica-de-privacidad" target="_blank" rel="noopener">politica de privacidad</a>.</p>
+  <div class="ec-btns">
+    <button class="ec-no" type="button" onclick="elevasCookies(false)">Rechazar</button>
+    <button class="ec-ok" type="button" onclick="elevasCookies(true)">Aceptar</button>
+  </div>
+</div>
+<script>
+(function(){
+  var GA_ID='G-X6QVLETPYE';
+  var KEY='elevas_cookie_consent';
+  function loadGA(){
+    if(window.__elevasGA)return; window.__elevasGA=true;
+    var s=document.createElement('script');
+    s.async=true; s.src='https://www.googletagmanager.com/gtag/js?id='+GA_ID;
+    document.head.appendChild(s);
+    window.dataLayer=window.dataLayer||[];
+    function gtag(){dataLayer.push(arguments);}
+    window.gtag=gtag;
+    gtag('js',new Date());
+    gtag('config',GA_ID);
+  }
+  window.elevasCookies=function(accept){
+    try{localStorage.setItem(KEY,accept?'accepted':'rejected');}catch(e){}
+    var b=document.getElementById('elevas-cookies'); if(b)b.style.display='none';
+    if(accept)loadGA();
+  };
+  var choice=null; try{choice=localStorage.getItem(KEY);}catch(e){}
+  if(choice==='accepted'){loadGA();}
+  else if(choice!=='rejected'){
+    var b=document.getElementById('elevas-cookies'); if(b)b.style.display='block';
+  }
+})();
+</script>
