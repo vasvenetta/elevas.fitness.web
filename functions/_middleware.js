@@ -30,12 +30,12 @@ La ruta solicitada no existe en elevas-fitness.com.
 
 - [Inicio](${ORIGEN}/)
 - [English version](${ORIGEN}/en/)
-- [About](${ORIGEN}/about)
-- [Contact](${ORIGEN}/contact)
-- [Privacy](${ORIGEN}/privacy)
-- [Aviso legal](${ORIGEN}/aviso-legal)
-- [Política de privacidad y cookies](${ORIGEN}/politica-de-privacidad)
-- [Términos y condiciones](${ORIGEN}/terminos-y-condiciones)
+- [About](${ORIGEN}/about/)
+- [Contact](${ORIGEN}/contact/)
+- [Privacy](${ORIGEN}/privacy/)
+- [Aviso legal](${ORIGEN}/aviso-legal/)
+- [Política de privacidad y cookies](${ORIGEN}/politica-de-privacidad/)
+- [Términos y condiciones](${ORIGEN}/terminos-y-condiciones/)
 - [Aplicación](https://app.elevas-fitness.com/)
 
 ## Índices del sitio
@@ -122,7 +122,7 @@ export async function onRequest(context) {
           'Cache-Control': 'public, max-age=3600',
           'X-Content-Type-Options': 'nosniff',
           'Content-Language': EN_CASTELLANO.has(path) ? 'es' : 'en',
-          Link: `<${url.origin}${path === '/' ? '/' : path}>; rel="canonical"`,
+          Link: `<${url.origin}${path === '/' ? '/' : path + '/'}>; rel="canonical"`,
         });
         withVaryAccept(headers);
         return new Response(body, { status: 200, headers });

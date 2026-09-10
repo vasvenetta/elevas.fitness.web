@@ -52,8 +52,8 @@ ELEVAS no es un servicio médico. Consulta con tu médico antes de empezar cualq
 
 - [Entrar a la app](https://app.elevas-fitness.com/)
 - [English version](https://elevas-fitness.com/en/)
-- [Aviso legal](https://elevas-fitness.com/aviso-legal)
-- [Política de privacidad](https://elevas-fitness.com/politica-de-privacidad)
-- [Términos y condiciones](https://elevas-fitness.com/terminos-y-condiciones)
+- [Aviso legal](https://elevas-fitness.com/aviso-legal/)
+- [Política de privacidad](https://elevas-fitness.com/politica-de-privacidad/)
+- [Términos y condiciones](https://elevas-fitness.com/terminos-y-condiciones/)
 - [llms.txt](https://elevas-fitness.com/llms.txt)
 - Contacto: contacto@elevas-fitness.com

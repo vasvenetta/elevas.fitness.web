@@ -25,7 +25,13 @@
     function radio(t) {
       return 82 + 6 * Math.sin(3 * t + 0.6) + 4 * Math.sin(5 * t + 2.1) + 2 * Math.sin(7 * t + 1.0);
     }
-    var fases = [
+    var ingles = (document.documentElement.lang || '').toLowerCase().indexOf('en') === 0;
+    var fases = ingles ? [
+      { n: 'Menstrual phase', c: '#FF5470', t: 'We lower the intensity. Same routine, zero pressure.' },
+      { n: 'Follicular and ovulation', c: '#7DE0A6', t: 'We raise the load and go for your best lifts.' },
+      { n: 'Early luteal', c: '#8FA7FF', t: 'You keep pushing. You hold what you gained without slipping back.' },
+      { n: 'Late luteal', c: '#FFD166', t: 'Easy week before your period. Technique and comfortable loads.' }
+    ] : [
       { n: 'Fase menstrual', c: '#FF5470', t: 'Bajamos la intensidad. Misma rutina, cero presión.' },
       { n: 'Folicular y ovulación', c: '#7DE0A6', t: 'Subimos carga y vamos a por tus mejores marcas.' },
       { n: 'Lútea temprana', c: '#8FA7FF', t: 'Sigues empujando. Mantienes lo ganado sin retroceder.' },

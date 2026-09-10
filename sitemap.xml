@@ -18,34 +18,34 @@
   </url>
 
   <url>
-    <loc>https://elevas-fitness.com/about</loc>
+    <loc>https://elevas-fitness.com/about/</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://elevas-fitness.com/contact</loc>
+    <loc>https://elevas-fitness.com/contact/</loc>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://elevas-fitness.com/politica-de-privacidad</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://elevas-fitness.com/politica-de-privacidad"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://elevas-fitness.com/privacy"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://elevas-fitness.com/politica-de-privacidad"/>
+    <loc>https://elevas-fitness.com/politica-de-privacidad/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://elevas-fitness.com/politica-de-privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elevas-fitness.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elevas-fitness.com/politica-de-privacidad/"/>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://elevas-fitness.com/privacy</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://elevas-fitness.com/politica-de-privacidad"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://elevas-fitness.com/privacy"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://elevas-fitness.com/politica-de-privacidad"/>
+    <loc>https://elevas-fitness.com/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://elevas-fitness.com/politica-de-privacidad/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://elevas-fitness.com/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://elevas-fitness.com/politica-de-privacidad/"/>
     <priority>0.4</priority>
   </url>
 
   <url>
-    <loc>https://elevas-fitness.com/aviso-legal</loc>
+    <loc>https://elevas-fitness.com/aviso-legal/</loc>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://elevas-fitness.com/terminos-y-condiciones</loc>
+    <loc>https://elevas-fitness.com/terminos-y-condiciones/</loc>
     <priority>0.3</priority>
   </url>
 

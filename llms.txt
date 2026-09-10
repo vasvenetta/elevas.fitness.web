@@ -50,12 +50,12 @@ Los planes parten de literatura científica del deporte y de metodologías de es
 
 - [Inicio](https://elevas-fitness.com/): qué es ELEVAS, las cuatro fases, el plan de un año, las etapas de la vida, los planes y las preguntas frecuentes.
 - [English version](https://elevas-fitness.com/en/): la misma información en inglés.
-- [About](https://elevas-fitness.com/about): quién está detrás de ELEVAS y cómo se construyen los planes, en inglés.
-- [Contact](https://elevas-fitness.com/contact): vías de contacto, en inglés.
-- [Privacy](https://elevas-fitness.com/privacy): resumen en inglés del tratamiento de datos.
-- [Aviso legal](https://elevas-fitness.com/aviso-legal): titular del sitio, condiciones de uso y legislación aplicable.
-- [Política de privacidad y cookies](https://elevas-fitness.com/politica-de-privacidad): tratamiento de datos personales y de salud, y uso de cookies.
-- [Términos y condiciones](https://elevas-fitness.com/terminos-y-condiciones): condiciones de uso y de suscripción.
+- [About](https://elevas-fitness.com/about/): quién está detrás de ELEVAS y cómo se construyen los planes, en inglés.
+- [Contact](https://elevas-fitness.com/contact/): vías de contacto, en inglés.
+- [Privacy](https://elevas-fitness.com/privacy/): resumen en inglés del tratamiento de datos.
+- [Aviso legal](https://elevas-fitness.com/aviso-legal/): titular del sitio, condiciones de uso y legislación aplicable.
+- [Política de privacidad y cookies](https://elevas-fitness.com/politica-de-privacidad/): tratamiento de datos personales y de salud, y uso de cookies.
+- [Términos y condiciones](https://elevas-fitness.com/terminos-y-condiciones/): condiciones de uso y de suscripción.
 - [Aplicación](https://app.elevas-fitness.com/): acceso y registro.
 
 ## Contacto
