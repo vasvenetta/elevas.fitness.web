@@ -15,8 +15,8 @@ Tu energía y tu recuperación no son iguales toda la vida ni todo el mes. En ve
 
 ## ¿Máquina ocupada? ¿Una lesión? Sigues entrenando.
 
-- **Máquina ocupada.** ¿Máquina ocupada o un ejercicio que no te gusta? Te damos la alternativa inmediata, para que no te escaquees del entrenamiento por eso. Cada ejercicio lleva su alternativa: cambias al momento y sigues. Incluido en Premium.
-- **Con lesión o molestia.** Si tienes una zona delicada, el plan evita los ejercicios que la cargan y rellena el día trabajando lo de alrededor, para que sigas fuerte mientras te recuperas. Incluido en Premium.
+- **Máquina ocupada.** ¿Máquina ocupada o un ejercicio que no te gusta? Te damos la alternativa inmediata, para que no te escaquees del entrenamiento por eso. Cada ejercicio lleva su alternativa: cambias al momento y sigues. Incluido en Increíble.
+- **Con lesión o molestia.** Si tienes una zona delicada, el plan evita los ejercicios que la cargan y rellena el día trabajando lo de alrededor, para que sigas fuerte mientras te recuperas. Incluido en Increíble.
 
 ## Un plan maestro de un año entero
 
@@ -34,8 +34,9 @@ Cada peso que registras queda guardado y ordenado por ciclo. Así ves cómo evol
 
 ## Planes
 
-- **Fabuloso, 12,99 euros al mes.** Plan mensual adaptado a tu etapa, objetivos de glúteos y pérdida de grasa, registro de ciclo con calendario, pautas mensuales según tu fase, registro de pesos y opción menopausia.
-- **Premium, 19,99 euros al mes (recomendado).** Todo lo anterior y además planes de embarazo y postparto, entrenamiento HYROX, adaptación por lesiones, alternativa si la máquina está ocupada, comparativa y gráfica de tu progreso y celebración de tus récords personales.
+- **Fabulosa, 5,99 euros al mes.** Plan mensual adaptado a tu etapa, objetivos de glúteos y pérdida de grasa, registro de ciclo con calendario, pautas mensuales según tu fase, registro de pesos y opción menopausia.
+- **Magnífica, 9,99 euros al mes (recomendado).** Todo lo anterior y además planes de embarazo y postparto, entrenamiento HYROX, comparativa y gráfica de tu progreso y celebración de tus récords personales.
+- **Increíble, 12,99 euros al mes.** Todo lo anterior y además alternativa si la máquina está ocupada y adaptación por lesiones.
 
 Siete días de prueba gratis. Suscripción mensual con IVA incluido; cancelas desde tu cuenta cuando quieras y mantienes el acceso hasta el final del periodo pagado.
 

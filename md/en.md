@@ -15,8 +15,8 @@ Your energy and your recovery are not the same all your life or all month long. 
 
 ## Machine taken? An injury? You keep training.
 
-- **Machine taken.** We give you the alternative right away, so you do not skip your workout because of it. Every exercise comes with its alternative: you swap on the spot and carry on. Included in Premium.
-- **With an injury or a niggle.** If you have a sensitive area, the plan avoids the exercises that load it and fills the day working around it, so you stay strong while you recover. Included in Premium.
+- **Machine taken.** We give you the alternative right away, so you do not skip your workout because of it. Every exercise comes with its alternative: you swap on the spot and carry on. Included in Increíble.
+- **With an injury or a niggle.** If you have a sensitive area, the plan avoids the exercises that load it and fills the day working around it, so you stay strong while you recover. Included in Increíble.
 
 ## A master plan for a whole year
 
@@ -34,8 +34,9 @@ Every weight you log is saved and sorted by cycle. So you see how you evolve wit
 
 ## Plans
 
-- **Fabuloso, €12.99 a month.** Monthly plan adapted to your stage, glute and fat loss goals, cycle tracking with calendar, monthly guidance by phase, weight log and menopause option.
-- **Premium, €19.99 a month (recommended).** Everything above plus pregnancy and postpartum plans, HYROX training, injury adaptation, an alternative when the machine is taken, progress comparison and chart, and personal record celebrations.
+- **Fabulosa, €5.99 a month.** Monthly plan adapted to your stage, glute and fat loss goals, cycle tracking with calendar, monthly guidance by phase, weight log and menopause option.
+- **Magnífica, €9.99 a month (recommended).** Everything above plus pregnancy and postpartum plans, HYROX training, progress comparison and chart, and personal record celebrations.
+- **Increíble, €12.99 a month.** Everything above plus an alternative when the machine is taken and injury adaptation.
 
 Seven-day free trial. Monthly subscription, VAT included; cancel from your account whenever you want and keep access until the end of the paid period.
 

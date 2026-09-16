@@ -24,8 +24,9 @@ ELEVAS was created by Julia Vas, its founder, who trains with her own cycle and 
 
 ## Plans
 
-  - **Fabuloso**, €12.99 a month: monthly plan adapted to your stage, glute and fat loss goals, cycle tracking with calendar, monthly guidance by phase, weight log and menopause option.
-  - **Premium**, €19.99 a month: everything above plus pregnancy and postpartum plans, HYROX training, injury adaptation, an alternative when the machine is taken, progress comparison and chart, and personal record celebrations.
+  - **Fabulosa**, €5.99 a month: monthly plan adapted to your stage, glute and fat loss goals, cycle tracking with calendar, monthly guidance by phase, weight log and menopause option.
+  - **Magnífica**, €9.99 a month (recommended): everything above plus pregnancy and postpartum plans, HYROX training, progress comparison and chart, and personal record celebrations.
+  - **Increíble**, €12.99 a month: everything above plus an alternative when the machine is taken and injury adaptation.
 
 Seven-day free trial. Monthly subscription, VAT included, cancelled from your account at any time while keeping access until the end of the paid period.
 
